@@ -1,0 +1,71 @@
+body{
+  text-align: center;
+  margin-top: 0px;     /* O google auto n coloca margin-top 0px  */
+}
+
+#hero img{
+  margin-bottom: 72px;
+}
+
+#hero{
+  width:592px;
+  margin: 0px auto 72px; /*    <!-- It means that the margin will put this div on a center --> margin = auto - este auto so pega nas laterais da div /    margin  top=0px left-right= auto bottom= 72px  */
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  margin-bottom: 32px;
+  font-weight: normal;      /*    <!-- Peso das fonte negrita - SO COLOCA EM NEGRITO UMA PALAVRA DESSE TITULO -->   */
+}
+
+h1 span{                        /*      <!-- Este aqui e referenciando o especifico span que esta dentro desse h1 -->    */
+  font-weight: bold;                 /*        <!-- Este aqui esta bold a palavra dentro da tag <span> -->         */
+}
+
+p , a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a , span{
+  color: #FF9900;    /* este formato de cor e hexadecimal    (red,green,blue)    esta colocando laranja todas as tags span */
+}
+
+strong{
+  font-weight: bold;
+  color: rgb(0,0,0);
+}
+
+p, #footer{
+  color:#7D7987;        
+  font-size: 14px;
+  line-height: 28px;       /* line-height e o tam da linha que ocupa a letra alturamente falando */
+}
+
+#footer{
+  margin-top: 72px;
+}
+
+#footer a+a{     /* Um link dentro do footer vai ter a margem 28px lado esquerdo , voltando para o a anterior tambem  de um jeito que os dois a fiquem no centro da div /pois tudo que esta dentro do body deve estar alinhado centro */
+  margin-left:28px;       /* Pegue um a que seja anterior a outro a e nesse segundo a aplique nele um espaçamento de margem esquerda 28px */
+}
+
+#line{
+  width:568px;
+  height:0px;
+  border: 1px solid #ECEFF2;
+  margin-left: auto;    /* Ficar automatico para centralizar a div */
+  margin-right: auto;          /*   margin 0px auto 8px */
+  margin-bottom: 8px;
+}
+
+#footer{
+  margin-bottom: 32px;
+}
+
+#balls{
+  position: fixed; /*it looks like fixed on screen on my pc*/
+  right: 0px;
+  bottom: 0px;
+}
