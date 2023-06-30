@@ -1,4 +1,7 @@
-My first project until i am study on Rocketseat plataform.
+#My first project until i am study on Rocketseat plataform.
+
+
+#Into this project i put new things that i learned
 
 *Properties Css*
 -->line-height.
